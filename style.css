@@ -1,0 +1,79 @@
+.fullbody{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.nav-link{
+    color: #262626  !important;
+    font-weight: 200;
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.d-flex a{
+    padding-left: 25px;
+    color: #262626  !important;
+    font-weight: 200;
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.firstnav {
+    display: block;
+  }
+  .secondnav {
+      display: none;
+    }
+
+
+@media only screen and (max-width: 992px) {
+    .d-flex{
+        visibility: collapse;
+    }
+}
+
+/* @media only screen and (max-width: 992px) {
+    .firstnav {
+      display: none;
+    }
+    .secondnav {
+        display: block;
+      }
+  } */
+
+
+  .icons a{
+      color: chocolate;
+      text-decoration: none;
+      padding-top: 25px;
+      padding-left: 10px;
+      
+  }
+  .iconimage{
+      padding: 10px;
+      
+  }
+  
+  .icondiv{
+      display: flex;
+      
+  }
+  .imagesection1{
+      margin-top: 20px;
+      padding: 25px;
+      align-content: center;
+  }
+
+ .imagesection1 a{
+     text-decoration: none;
+ }
+ .jumbotron-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ a{
+     text-decoration: none;
+ }
+.textfoot{
+    color: #616161;
+    font-size: 11px;
+}
