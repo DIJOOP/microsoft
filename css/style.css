@@ -26,7 +26,7 @@
 
 @media only screen and (max-width: 992px) {
     .d-flex{
-        visibility: collapse;
+       visibility: collapse;
     }
 }
 
@@ -76,4 +76,11 @@
 .textfoot{
     color: #616161;
     font-size: 11px;
+}
+
+.imagesection1-1 img{
+  max-width:100%;
+}
+h3{
+    font-size: 20px;
 }
